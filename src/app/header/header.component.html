@@ -1,0 +1,30 @@
+<mat-toolbar color="primary">
+  <span><img src="/assets/images/logo.png"  width=41></span>
+  <a mat-button routerLink="/home" routerLinkActive="active"><span class="fa fa-home fa-lg"></span> Home</a>
+  <a mat-button routerLink="/about" routerLinkActive="active"><span class="fa fa-info fa-lg"></span> About</a>
+  <a mat-button routerLink="/menu" routerLinkActive="active"><span class="fa fa-list fa-lg"></span> Menu</a>
+  <a mat-button routerLink="/contact" routerLinkActive="active"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+  <span class="flex-spacer"></span>
+  <a mat-button (click)="openLoginForm()"><span class="fa fa-sign-in fa-lg"></span> Login</a>
+</mat-toolbar>
+
+<div class="container jumbotron"
+    fxLayout="row"
+    fxLayout.sm="column" 
+    fxLayout.xs="column" 
+    fxLayoutAlign.xs="start center"
+    fxLayoutAlign.sm="start center" 
+    fxLayoutAlign.gt-sm="center center" 
+    fxLayoutGap="10px">
+
+  <div fxFlex fxFlex.gt-sm="50%">
+    <h1>Ristorante & Bar Despecho's</h1>
+    <p>We were inspired by the best cuisines in the world, and we created a unique Mexican food, Italian food, shrimp, wine, and a lot of spice
+      experience. Our creations
+      It will tickle your culinary senses!</p>
+  </div>
+  <div fxFlex fxFlex.gt-sm="20%">
+    <img src="http://localhost:3000/images/logo.png" alt="Logo" class="tumps">
+  </div>
+  <div fxFlex></div>
+</div>
